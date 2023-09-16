@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+	<!-- Top navigation bar -->
+		<nav class="navigation-bar">
+			<div class="title-combo">
+			<div class="website-logo">
+				<img id="music-logo" src="images/music.png">
+				    </div>
+				    <div class="website-name">
+					<h3>Ninja</h3>
+					<h2>Studios</h2>
+				</div>
+			</div>
+				<div class="favourite">
+					<h4><a href="#"> Favourites </a></h4>
+				</div>
+					<div class="search-box">
+						<div>
+							<i class="fa-solid fa-magnifying-glass"></i>
+							</div>
+							<input type="text" placeholder="Search"/>
+							<div><i class="fa-solid fa-microphone"></i></div>
+						</div>
+					</div>
+				 <div class="notification-bell">
+					<i class="fa-solid fa-bell fa-shake"></i>
+				</div>
+			   <div class="profile-picture">
+			   	<img src="images/shashank.png">
+			   </div>
+		</nav>
+		<main>
+			<aside class="aside-section-1">
+		    <!-- This is the first aside section -->
+            <div class="outer-carousel">
+            	<div class="carousel">
+            		<div class="container">
+            			<div class="card">
+            				<img src="images/honey-album.jpg">
+            			</div>
+            			<div class="card">
+            				<img src="images/sidhu-album.jpg">
+            			</div>
+            			<div class="card">
+            				<img src="images/diljit=album.jpg">
+            			</div>
+            			<div class="card">
+            				<img src="images/shubh=album.jpg">
+            			</div>
+            			<div class="card">
+            				<img src="images/ap-album.jpg">
+            			</div>
+            		</div>
+            	</div>
+            </div>	
+            			<!--Div for latest release section -->
+            		<div class="latest-release">
+            			<h1>
+            				Latest Release
+            			</h1>
+            			<div class="latest-release-content">
+            				<!-- First card -->
+            				<div class="latest-release-card">
+            					<div>
+            						<img src="images/obssesed.jpg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>OBSESSED</h3>
+            						<p>May,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							3:45
+            						</p>
+            					</div>
+            					</div>
+
+            		        <!--Second Card  -->
+            		        <div class="latest-release-card">
+            					<div>
+            						<img src="images/still-rollin.jpg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>STILL ROLLIN</h3>
+            						<p>Jun,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							2:52
+            						</p>
+            					</div>
+            					</div>
+            					<!-- Third card -->
+            					<div class="latest-release-card">
+            					<div>
+            						<img src="images/no-reason.jpg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>NO REASON</h3>
+            						<p>Jun,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							3:36
+            						</p>
+            					</div>
+            					</div>
+            					<!-- Fourth Card -->
+            					<div class="latest-release-card">
+            					<div>
+            						<img src="images/california-love.jpg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>CALIFORNIA LOVE</h3>
+            						<p>Apr,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							2:58
+            						</p>
+            					</div>
+            					</div>
+            					<!-- Fifth Card -->
+            					<div class="latest-release-card">
+            					<div>
+            						<img src="images/chorni.jpeg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>CHORNI</h3>
+            						<p>Jul,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							3:32
+            						</p>
+            					</div>
+            					</div>
+            					<!-- Sixth Card -->
+            					<div class="latest-release-card">
+            					<div>
+            						<img src="images/moonrise.jpg">
+            						<div class="play-button">
+            							<i class="fa-solid fa-play"></i>
+            						</div>
+            					</div>
+            					<div class="song-description">
+            						<h3>MOON RISE</h3>
+            						<p>Jan,2023</p>
+            					</div>
+            					<div class="song-options">
+            						<label for="latest-release-checkbox">
+            							<i class="fa-solid fa-ellipsis"></i>
+            						</label>
+            						<input type="checkbox" id="latest-release-checkbox">
+            						<div class="latest-release-dropdown">
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-regular fa-circle-play"></i>
+            									<a href="#">Play Now</a>
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<p>
+            									<i class="fa-solid fa-list"></i>
+            									Add to Queue
+            								</p>
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-list-music"></i>
+            								Add to Playlist
+            							</div>
+            							<hr>
+            							<div class="drop-item">
+            								<i class="fa-solid fa-circle-info"></i>
+            								Get Info
+            							</div>
+            						</div>
+            						<!-- song length -->
+            						<p>
+            							3:10
+            						</p>
+            					</div>
+            					</div>
+            				</div>
+            			</div>
+            		</div>
+            	<!-- Popular Artist section	 -->
+            	<div class="popular-artists">
+            		<h1> Popular Artists</h1>
+
+            		<div class="popular-artists-content">
+            			<!-- first artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/sidhu-1.jpg">
+            					<p>
+            						Sidhu Moosewala
+            					</p>
+            				</div>
+            			</a>
+            			<!-- second artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/taylor-1.jpg">
+            					<p>
+            						Taylor Swift
+            					</p>
+            				</div>
+            			</a>
+            			<!-- third artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/adam-1.jpg">
+            					<p>
+            						Adam Levine
+            					</p>
+            				</div>
+            			</a>
+            			<!-- fourth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/arijit-1.jpg">
+            					<p>
+            						Arjit Singh
+            					</p>
+            				</div>
+            			</a>
+            			<!-- fifth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/diljit-1.jpg">
+            					<p>
+            						Diljit Dosanjh
+            					</p>
+            				</div>
+            			</a>
+            			<!-- sixth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/justin-1.jpg">
+            					<p>
+            						Justin Bieber
+            					</p>
+            				</div>
+            			</a>
+            			<!-- seventh artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/shubh-1.jpg">
+            					<p>
+            						Shubh
+            					</p>
+            				</div>
+            			</a>
+            			<!-- eighth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/weekend-1.jpg">
+            					<p>
+            						Weeknd
+            					</p>
+            				</div>
+            			</a>
+            			<!-- ninth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/honey-1.jpg">
+            					<p>
+            						Honey Singh
+            					</p>
+            				</div>
+            			</a>
+            			<!-- tenth artist -->
+            			<a href="artist.html">
+            				<div>
+            					<img src="images/popular/zayn-1.jpg">
+            					<p>
+            						Zayn
+            					</p>
+            				</div>
+            			</a>
+            		</div>
+            	</div>
+            	<!-- Music Genre Section -->
+            	<div class="music-genre">
+
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Travel</span>
+            		</div>
+            		</div>
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Party</span>
+            		</div>
+            		</div>
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Gym</span>
+            		</div>
+            		</div>
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Love</span>
+            		</div>
+            		</div>
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Rock</span>
+            		</div>
+            		</div>
+            		<div class="outer-div">
+            		<div class="inner-div">
+            			<span>Pop</span>
+            		</div>
+            		</div>
+            	</div>
+
+            	<!-- div for song according to language -->
+            	<div class="latest-by-lang">
+            	<div class="hindi-language">
+            		<h1>
+            			Latest Hindi
+            		</h1>
+            		<div class="lang-content">
+            			<div>
+            				<img src="images/latest-hindi/tere-vaste.jpg">
+            				<p>Tere Vaaste</p>
+            				<p>Jun 5, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/kya-loge-tum.jpg">
+            				<p>Kya Loge Tum</p>
+            				<p>Jun 12, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/naiyo-lagda.jpg">
+            				<p>Naiyo Lagda</p>
+            				<p>Feb 20, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/o-bederdya.jpg">
+            				<p>O Bedardeya</p>
+            				<p>Mar 8, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/ram-siya.jpg">
+            				<p>Ram Siya Ram</p>
+            				<p>May 16, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/tere-pyaar-me.jpg">
+            				<p>Tere Pyaar Mein</p>
+            				<p>Mar 8, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-hindi/zihaal-e-miskin.jpg">
+            				<p>Zihaal-e-Miskin</p>
+            				<p>Jun 12, 2023</p>
+            			</div>
+            		</div>
+            	</div>
+
+            	<div class="latest-english">
+            		<!-- latest-english-section -->
+            		<h1>Latest English</h1>
+            		<div class="lang-content">
+            			
+            			<div>
+            				<img src="images/latest-english/chemical.jpg">
+            				<p>Chemical</p>
+            				<p>Apr 23, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/cupid.jpg">
+            				<p>Cupid</p>
+            				<p>Feb 23, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/dua-lipa.jpg">
+            				<p>Dance The Night</p>
+            				<p>May 26, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/eyes-closed.jpg">
+            				<p>Eyes Closed</p>
+            				<p>Mar 23, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/last-night.jpg">
+            				<p>Last Night</p>
+            				<p>Mar 12, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/miracle.jpg">
+            				<p>Miracle</p>
+            				<p>Jun 5, 2023</p>
+            			</div>
+
+            			<div>
+            				<img src="images/latest-english/middle-ground.jpg">
+            				<p>Middle Ground</p>
+            				<p>May 23, 2023</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+			</aside>
+
+			<aside class="aside-section-2">
+            <div class="recently-played">
+            	<div class="section-heading">
+            		<h1>
+            			Recently Played
+            		</h1>
+            		<div class="view-all">
+            			View All
+            		</div>
+            	</div>
+            	<div class="list">
+            		<!-- first song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/rubicon.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Rubicon Drill</h5>
+                		<p class="song-detail">Laddi Chahal, Parmish Verma</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- second song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/cheques.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Cheques</h5>
+                		<p class="song-detail">Shubh</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- third song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/lemonade.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Lemonade</h5>
+                		<p class="song-detail">Diljit Dosanjh</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- fourth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/haal-e-dil.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Haal-E-Dill</h5>
+                		<p class="song-detail">Harshit Saxena</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- fifth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/desi-kalakar.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Desi Kalakar</h5>
+                		<p class="song-detail">Honey Singh</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- sixth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/kahani-suno.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Kahani Suno 2.0</h5>
+                		<p class="song-detail">Kaifi Khalil</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- seventh song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/levels.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Levels</h5>
+                		<p class="song-detail">Sidhu Moosewala, Sunny Malton</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- eighth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/night-changes.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Night Changes</h5>
+                		<p class="song-detail">One Direction</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- ninth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/we-don't.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>We Don't Talk Anymore</h5>
+                		<p class="song-detail">Charlie Puth, Selena Gomez</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+                <!-- tenth song -->
+                <div class="list-item">
+                	<div>
+                		<img src="images/recent/summer-high.jpg">
+                		<div class="play-button">
+            			<i class="fa-solid fa-play"></i>
+            			</div>
+                	</div>
+                	<div class="recent-song">
+                		<h5>Summer High</h5>
+                		<p class="song-detail">AP Dhillon</p>
+                	</div>
+                	<div class="heart">
+                		<i class="fa-regular fa-heart"></i>
+                	</div>
+                </div>
+            	</div>
+            </div>				
+			</aside>
+		</main>
+
+		<footer>
+			<div class="playing-song">
+
+				<div class="song-pic">
+					<img src="images/recent/lemonade.jpg">	
+				</div>
+
+				<div class="about-song">
+					<div>
+						Lemonade
+					</div>
+					<div>
+						Diljit Dosanjh
+					</div>
+				</div>
+			</div>
+
+			<!-- div for mini player controls -->
+			<div class="mini-player">
+				<div class="controls">
+				<div><i class="fa-solid fa-shuffle"></i></div>
+				<div><i class="fa-solid fa-backward-step"></i></div>
+				<div><i class="fa-solid fa-circle-pause"></i></div>
+				<div><i class="fa-solid fa-forward-step"></i></div>
+				<div><i class="fa-solid fa-rotate-right"></i></div>	
+				</div>
+			
+			<div id="slider">
+				<div class="song-time">
+					00:32
+				</div>
+				<div class="slide-bar">
+					<input type="range" min="0" max="100" value="0" class="slider" id="range">
+				</div>
+				<div class="song-time">
+					03:22
+				</div>
+			</div>
+			</div>
+
+			<div class="extras">
+				<div>
+					<i class="fa-solid fa-list"></i>
+				</div>
+				<div>
+					<i class="fa-solid fa-volume-high"></i>
+				</div>
+				<div class="slide-bar">
+				<input type="range" min="0" max="100" value="0" class="slider" id="range">
+				</div>
+				<div>
+					<i class="fa-solid fa-maximize"></i>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
